@@ -1,7 +1,7 @@
 # S&P 500 Stock Screening & Portfolio Optimization System
 
 This project analyzes S&P 500 stocks using Python and quantitative finance techniques.
-It collects historical market data, calculates risk and performance metrics, screens stocks based on multiple factors, and constructs optimized portfolios using Modern Portfolio Theory.
+It downloads historical market data, calculates risk and performance metrics, screens stocks using multiple factors, and constructs optimized portfolios based on Modern Portfolio Theory.
 
 ---
 
@@ -15,7 +15,7 @@ It collects historical market data, calculates risk and performance metrics, scr
   * Sharpe Ratio
   * Sortino Ratio
   * Alpha
-  * Max Drawdown
+  * Maximum Drawdown
 * Perform sector performance analysis
 * Generate correlation matrix for diversification insights
 * Build a multi-factor stock screening model
@@ -82,19 +82,23 @@ python stock_screener.py
 
 ```
 sp500-stock-screening-portfolio-optimization
-
-plots/
-README.md
-requirements.txt
-stock_screener.py
-summary_report.txt
+│
+├── plots/
+│   ├── efficient_frontier.png
+│   ├── correlation_heatmap.png
+│   ├── sector_avg_total_return.png
+│   ├── top_10_sharpe.png
+│
+├── stock_screener.py
+├── requirements.txt
+├── summary_report.txt
+├── README.md
 ```
 
 ---
 
 ## Author
 
-Elnur Gurbanzade
-
+**Elnur Gurbanzade**
 Master's Student – Business Finance
 Riga Technical University
