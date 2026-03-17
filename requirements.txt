@@ -1,6 +1,7 @@
 pandas
 numpy
 matplotlib
-seaborn
 yfinance
-scipy
+lxml
+html5lib
+beautifulsoup4
