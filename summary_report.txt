@@ -1,0 +1,101 @@
+S&P 500 STOCK SCREENING & PORTFOLIO ANALYTICS REPORT
+================================================================================
+Analysis Period: 2023-01-01 to 2024-01-01
+Risk-Free Rate Assumption: 5.00%
+Trading Days Assumption: 252
+Loaded from Wikipedia: 503
+Valid price data: 499
+Failed downloads: 4
+Passed minimum observation filter: 498
+Final stocks in results table: 498
+
+IMPORTANT NOTE
+--------------------------------------------------------------------------------
+This analysis uses the current S&P 500 constituent list from Wikipedia.
+Some tickers are excluded due to missing historical price data or insufficient observations.
+This project should be interpreted as a practical stock screening and portfolio analytics system.
+
+SPY BENCHMARK METRICS
+--------------------------------------------------------------------------------
+Total Return (%): 26.71
+Volatility (%): 13.09
+Sharpe Ratio: 1.51
+Sortino Ratio: 2.48
+Max Drawdown (%): -9.97
+Calmar Ratio: 2.68
+
+BENCHMARK COMPARISON
+--------------------------------------------------------------------------------
+Stocks analyzed: 498
+Stocks beating SPY by Total Return: 164
+Stocks beating SPY by Sharpe: 73
+Stocks with positive Alpha: 190
+Stocks with lower volatility than SPY: 0
+Stocks with smaller drawdown than SPY: 13
+
+TOP 5 STOCKS BY COMPOSITE SCORE
+--------------------------------------------------------------------------------
+META: Total Return=183.76%, Sharpe=2.72, Sortino=6.43, Alpha=73.09%, Vol=39.83%, MaxDD=-12.97%, Sector=Communication Services
+GE: Total Return=92.97%, Sharpe=2.66, Sortino=5.22, Alpha=46.11%, Vol=24.30%, MaxDD=-9.39%, Sector=Industrials
+FICO: Total Return=96.89%, Sharpe=2.63, Sortino=3.82, Alpha=46.80%, Vol=25.48%, MaxDD=-11.01%, Sector=Information Technology
+AVGO: Total Return=106.27%, Sharpe=2.28, Sortino=4.81, Alpha=44.29%, Vol=32.17%, MaxDD=-11.93%, Sector=Information Technology
+CRWD: Total Return=147.21%, Sharpe=2.29, Sortino=3.36, Alpha=62.65%, Vol=41.68%, MaxDD=-15.02%, Sector=Information Technology
+
+TOP 5 STOCKS BY SHARPE RATIO
+--------------------------------------------------------------------------------
+RCL: Sharpe=2.76, Total Return=165.84%, Vol=36.48%, Alpha=69.65%
+PHM: Sharpe=2.73, Total Return=125.44%, Vol=30.01%, Alpha=58.10%
+NVDA: Sharpe=2.73, Total Return=246.10%, Vol=48.46%, Alpha=92.11%
+META: Sharpe=2.72, Total Return=183.76%, Vol=39.83%, Alpha=73.09%
+GE: Sharpe=2.66, Total Return=92.97%, Vol=24.30%, Alpha=46.11%
+
+TOP 5 STOCKS BY ALPHA
+--------------------------------------------------------------------------------
+CVNA: Alpha=264.12%, Beta=4.25, Total Return=1043.41%, Sharpe=2.28
+COIN: Alpha=142.49%, Beta=2.95, Total Return=417.62%, Sharpe=2.23
+APP: Alpha=113.49%, Beta=1.77, Total Return=271.39%, Sharpe=2.24
+SMCI: Alpha=105.91%, Beta=2.05, Total Return=238.97%, Sharpe=1.95
+NVDA: Alpha=92.11%, Beta=2.02, Total Return=246.10%, Sharpe=2.73
+
+TOP 5 SECTORS BY COMPOSITE SCORE
+--------------------------------------------------------------------------------
+Information Technology: Avg Total Return=57.33%, Avg Sharpe=1.21, Avg Alpha=15.78%, Stock Count=69
+Consumer Discretionary: Avg Total Return=60.69%, Avg Sharpe=0.95, Avg Alpha=12.32%, Stock Count=48
+Industrials: Avg Total Return=29.00%, Avg Sharpe=0.81, Avg Alpha=1.71%, Stock Count=77
+Communication Services: Avg Total Return=29.91%, Avg Sharpe=0.69, Avg Alpha=0.98%, Stock Count=23
+Financials: Avg Total Return=21.84%, Avg Sharpe=0.55, Avg Alpha=-6.72%, Stock Count=76
+
+MAX SHARPE PORTFOLIO
+--------------------------------------------------------------------------------
+Portfolio Return (%): 77.28
+Portfolio Volatility (%): 17.71
+Portfolio Sharpe Ratio: 4.08
+Top 10 Weights:
+  GE: 7.52%
+  VST: 7.43%
+  UBER: 7.30%
+  FICO: 7.20%
+  META: 6.90%
+  NVDA: 6.69%
+  PANW: 6.44%
+  CRM: 6.10%
+  AVGO: 5.54%
+  BR: 5.12%
+
+MINIMUM VOLATILITY PORTFOLIO
+--------------------------------------------------------------------------------
+Portfolio Return (%): 67.83
+Portfolio Volatility (%): 16.07
+Portfolio Sharpe Ratio: 3.91
+Top 10 Weights:
+  NRG: 7.37%
+  VST: 6.86%
+  GE: 6.71%
+  PANW: 6.41%
+  PHM: 5.82%
+  DECK: 5.67%
+  CRM: 5.58%
+  TDG: 5.42%
+  CPRT: 5.32%
+  DELL: 4.98%
+
